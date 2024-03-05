@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:olive;
+    background-image: url("https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638886301/EducationHub/photos/lightning-bolts.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url("https://i.ytimg.com/vi/6jhDlMbsAVU/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgTih_MA8=&rs=AOn4CLD1QuUmGHxpFeUmBavB3O3CP-ZEDg");
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input,
+button {
+    appearance: none;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #5aac44;
+    color: #fff;
+    cursor: pointer;
+}
+
+.weather-data {
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 10px;
+}
